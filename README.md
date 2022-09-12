@@ -38,7 +38,7 @@ Curso com abordadem em utilização da linguagem Kotlin com implementação do S
 #####
 Como é um projeto de estudos a sua execução ocorre de forma local sendo os metodos acessados pelo <i>localhost:8080/topicos</i>
 
-## TODO
-#####
-    - [ ] Implementar as chamadas para adicionar Respostas
-    - [ ] Manipular as respostas de acordo com os tópicos
+# TODO
+
+- [ ] Implementar as chamadas para adicionar Respostas
+- [ ] Manipular as respostas de acordo com os tópicos
