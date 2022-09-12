@@ -2,7 +2,7 @@
 
 Curso com abordadem em utilização da linguagem Kotlin com implementação do Spring boot para camadas Web Simples
 
-###Neste curso eu aprendi a:
+### Neste curso eu aprendi a:
 <ul>
 <li>Criar uma aplicação Spring Boot com Kotlin do zero</li>
 <li>Desenvolver um CRUD com requisições <b><i>GET, POST, PUT e DELETE</i></b></li>
@@ -14,7 +14,7 @@ Curso com abordadem em utilização da linguagem Kotlin com implementação do S
 </ul>
 
 
-####Ferramentas utilizadas no Projeto:
+#### Ferramentas utilizadas no Projeto:
 
 <ul>
 <li>Intellij IDEA 2021.2</li>
@@ -33,12 +33,12 @@ Curso com abordadem em utilização da linguagem Kotlin com implementação do S
 </ul>
 
 
-####Utilização do Projeto
+#### Utilização do Projeto
 
 #####
 Como é um projeto de estudos a sua execução ocorre de forma local sendo os metodos acessados pelo <i>localhost:8080/topicos</i>
 
-##TODO
+## TODO
 #####
     - [ ] Implementar as chamadas para adicionar Respostas
     - [ ] Manipular as respostas de acordo com os tópicos
