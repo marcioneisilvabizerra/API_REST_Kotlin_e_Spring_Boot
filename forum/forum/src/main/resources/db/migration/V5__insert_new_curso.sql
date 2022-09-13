@@ -1,0 +1,1 @@
+INSERT INTO curso (nome, categoria) VALUES ('HTML', 'Front-End');

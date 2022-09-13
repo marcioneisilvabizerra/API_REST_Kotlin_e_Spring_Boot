@@ -1,16 +1,18 @@
-# API_REST_Kotlin_e_Spring_Boot
+# API_REST_Kotlin_e_Spring_Boot_Camada_De_Persistencia
 
-Curso com abordadem em utilização da linguagem Kotlin com implementação do Spring boot para camadas Web Simples
+Curso com abordadem em utilização da linguagem Kotlin com implementação do Spring boot utilizando camadas de persistência
 
-### Neste curso eu aprendi a:
+### Neste aula eu aprendi a:
 <ul>
-<li>Criar uma aplicação Spring Boot com Kotlin do zero</li>
-<li>Desenvolver um CRUD com requisições <b><i>GET, POST, PUT e DELETE</i></b></li>
-<li>Utilizar <b><i>DTOs</i></b> para representar as informações de input/output da API</li>
-<li>Criar classes Mappers para conversão de DTOs</li>
-<li>Realizar validações utilizando o <b><i>Bean Validation</i></b></li>
-<li>Seguir corretamente os princípios do modelo <b>REST</b></li>
-<li>Como tratar exceptions na API</li>
+<li>Adicionar e configurar o Spring Data JPA no projeto</li>
+<li>Mapear as entidades da aplicação</li>
+<li>Utilizar as interfaces Repository</li>
+<li>Migrar o código existente para acessar o banco de dados</li>
+<li>Trabalhar com Migrations utilizando o Flyway</i></b></li>
+<li>Utilizar Cahce na API</li>
+<li>Realizar paginação e ordenação de consultas</li>
+<li>Montar queries personalizadas</li>
+<li>Acessar diretamente o EntityManager</li>
 </ul>
 
 
@@ -28,6 +30,10 @@ Curso com abordadem em utilização da linguagem Kotlin com implementação do S
                 <li>Spring Web</li>
                 <li>Spring Boot DevTools</li>
                 <li>Validation</li>
+                <li>Postgresql</li>
+                <li>JPA</li>
+                <li>Flyway</li>
+                <li>StarterCache</li>
             </ol>
     </ol>
 </ul>
@@ -42,3 +48,5 @@ Como é um projeto de estudos a sua execução ocorre de forma local sendo os me
 
 - [ ] Implementar as chamadas para adicionar Respostas
 - [ ] Manipular as respostas de acordo com os tópicos
+- [ ] Migrations carregar informações configuradas
+- [ ] Buscar topicos sem resposta

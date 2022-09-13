@@ -1,13 +1,17 @@
 package br.com.alura.forum.model
 
 import java.time.LocalDateTime
+import javax.persistence.*
 
+@Entity
 data class Resposta (
-val id: Long?,
+@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    val id: Long?,
 val mensagem: String,
 val dataCriacao: LocalDateTime = LocalDateTime.now(),
-val curso: Curso,
+@ManyToOne
 val autor: Usuario,
-val status: StatusTopico = StatusTopico.NAO_RESPONDIDO,
-val respostas: List<Resposta> = ArrayList()
+@ManyToOne
+val topico: Topico,
+val solucao: Boolean
 )
