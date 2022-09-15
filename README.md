@@ -8,8 +8,8 @@ Curso com abordadem em utilização da linguagem Kotlin com implementação do S
 <li>Mapear as entidades da aplicação</li>
 <li>Utilizar as interfaces Repository</li>
 <li>Migrar o código existente para acessar o banco de dados</li>
-<li>Trabalhar com Migrations utilizando o Flyway</i></b></li>
-<li>Utilizar Cahce na API</li>
+<li>Trabalhar com Migrations utilizando o Flyway</li>
+<li>Utilizar Cache na API</li>
 <li>Realizar paginação e ordenação de consultas</li>
 <li>Montar queries personalizadas</li>
 <li>Acessar diretamente o EntityManager</li>
